@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            margin: 0px;
+        }
+        header{
+            background-color: #f542ec;
+            text-align: center;
+            padding: 30px 0px;
+            color: white;
+        }
+        header h1{
+            margin:0px;
+            font-size: 2.5rem;
+        }
+        nav a{
+            text-decoration: none;
+            color: white;
+            letter-spacing: 0.5px;
+            margin-left: 200px;
+
+        }
+        nav a:hover{
+            color: yellow;
+            text-decoration: underline;
+        }
+
+        nav{
+            background-color: black;
+        }
+        section{
+            border-radius: 8px;
+            box-shadow: 0,0,0,0.1;
+            background-color: #ffffff;
+            padding: 25px;
+            margin: 20px auto;
+        }
+        section:hover{
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+        }
+        section h2{
+            color:#f54298;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        table th,
+        table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        table th {
+            background-color: #f1f1f1;
+            font-weight: 600;
+            color: #333;
+        }
+       
+       
+        
+        form {
+            max-width: 650px;
+            margin: 25px auto;
+        }
+        form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        form input,
+        form textarea,
+        form button {
+            width: 100%;
+            padding: 14px;
+            margin-bottom: 18px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+        form input:focus,
+        form textarea:focus {
+            border-color: #FF4500;
+            outline: none;
+        }
+        form button {
+            background-color: #FF4500;
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        form button:hover {
+            background-color: black;
+        }
+        form button:active {
+            background-color: #A6281F;
+        }
+        img{
+            position: relative;
+            bottom: 700px;
+            left: 700px;
+           
+        }
+        .main{
+            height: 150px;
+            width: 300px;
+           
+        }
+        p{
+            font-family: 'Times New Roman', Times, serif;
+            color:black;
+            font-weight: 700;
+        } 
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>✨welcome to the Tech Titans Hackathon 2025✨</h1>
+        <p> Participants gain new skills, network with peers and professionals, and often compete for prizes or recognition.</p>
+    </header>
+    <nav>
+        <a href="">About</a>
+        <a href="">Schedule</a>
+        <a href="">Hackthon Rules</a>
+        <a href="">Contact</a>
+        <a href="">Login</a>
+    </nav>
+
+    <section id="about">
+        <h2>About The Event</h2>
+        <p>A hackathon is a collaborative event where programmers, developers, and designers come together to create innovative solutions or projects within a limited time frame, typically 24-72 hours. It fosters creativity, teamwork, and hands-on coding experience. </p>
+    </section>
+    <section id="schedule">
+        <h2>Event Schedule</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10:00 AM</td>
+                    <td>Opening Ceremony</td>
+                    <td>Keynote from Industry Expert, Overview of Hackathon Theme, Rules, and Criteria</td>
+                </tr>
+                <tr>
+                    <td>11:30 AM</td>
+                    <td>Problem Statement Announcement & Team Formation</td>
+                    <td>Problem statements or challenges are revealed; participants form teams or join pre-registered ones</td>
+                </tr>
+                <tr>
+                    <td>1:00 PM</td>
+                    <td>Lunch Break</td>
+                    <td>Networking over lunch with tech professionals</td>
+                </tr>
+                <tr>
+                    <td>2:30 PM</td>
+                    <td>Hackathon Coding Begins</td>
+                    <td>Teams start coding and developing their solutions</td>
+                </tr>
+                <tr>
+                    <td>4:00 PM</td>
+                    <td>Final Submission & Demos</td>
+                    <td>Teams submit their final projects and showcase their solutions through live demos</td>
+                </tr>
+                <tr>
+                    <td>11:00 PM</td>
+                    <td>Judging & Award Ceremony</td>
+                    <td>Judges evaluate submissions, and winners are announced based on creativity, technical complexity, and impact
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="characters">
+        <h2>Hackathon Rules</h2>
+        <p>1.Eligibility: Participants must be of legal age (18+), and teams are usually 2-5 members.<br>
+            2.Team Formation: Teams can form before or during the hackathon; one person per team.<br>
+            3.Project Development: All work must be done during the event using publicly available tools.<br>
+            4.Submission: Projects must be submitted by the deadline with all required materials.<br>
+            5.Ownership: Teams own their projects and intellectual property.<br>
+            </p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+            <button type="submit">Send</button>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPBqQOhR7o2dKwj1ijP9DneCAko3lA_ZTjQg&s" class="main"/>
+        </form>
+    </section>
+</body>
+</html>
+
+</body>
+</html>
+    
